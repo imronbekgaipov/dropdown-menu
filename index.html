@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="site-logo" href="./index.html">
+          <img
+            class="site-logo__image"
+            src="./images/svg/Logo.svg"
+            alt="Car rental"
+            width="150"
+            height="40"
+          />
+        </a>
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="">Categories</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="">About Us</a>
+              <ul class="sitenav__item__inner-menu">
+                <li class="inner-menu__item">
+                  <a class="inner__menu__link" href="">News</a>
+                </li>
+                <li class="inner-menu__item">
+                  <a class="inner__menu__link" href="">Careers</a>
+                </li>
+                <li class="inner-menu__item">
+                  <a class="inner__menu__link" href="">Locations</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="">Help center</a>
+              <ul class="sitenav__item__help-menu">
+                <li class="help__menu__item">
+                  <a href="" class="help__menu__link">FAQ</a>
+                </li>
+                <li class="help__menu__item">
+                  <a href="" class="help__menu__link">Contact us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
